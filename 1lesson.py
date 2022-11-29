@@ -1,7 +1,7 @@
 username = input("Введите ваше имя:\n")
 age = int(input("Введите ваш возраст:\n"))
 print(f"Добрый день, {username}!")
-if age > 17:
+if age >= 18:
     print('Вы можете открыть вклад.')
     deposit = int(input("Какую сумму вы хотите внести?\n"))
     if 50000 > deposit >= 10000:
